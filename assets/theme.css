@@ -1,0 +1,189 @@
+body{
+					font-family: Source Sans Pro;
+							font-size: 16px;
+			}
+	p{
+					font-family: Source Sans Pro;
+					}
+	h1,.h1{
+					font-family: Source Sans Pro;
+					}
+	h2,.h2{
+					font-family: Source Sans Pro;
+							font-size: 60px;
+			}
+	h3,.h3{
+					font-family: Source Sans Pro;
+							font-size: 36px;
+			}
+	h4,.h4{
+					font-family: Source Sans Pro;
+							font-size: 24px;
+			}
+	h5,.h5{
+					}
+	h6,.h6{
+					}
+	a{
+					}
+
+
+
+
+										.is-btn-ghost1{
+					font-family:Source Sans Pro;
+					font-size: 26px;
+				}
+												.navbar-custom .navbar-nav li a{
+					font-family:Source Sans Pro;
+					font-size: 20px;
+				}
+							
+	@media (min-width: 992px){
+	.logo{
+		padding-left: 60px;
+	}
+}
+p, td, li, label{
+	line-height:1.5;
+}
+.is-btn-ghost1{
+    border: 1px solid #111;
+    padding: 7px 30px;
+    border-radius:15px;
+}
+.is-btn-ghost2,.is-dark-text .is-btn-ghost2{
+	color: #ffffff;
+    border: 2px solid #e11a27;
+    background-color: #e11a27;
+    font-size: 26px;
+    padding: 7px 30px;
+    border-radius: 15px;
+}
+h1,h2,h3{
+	margin:10px 0;
+}
+.widget-cat-pricing .is-card{
+    background-color: #ffd200;
+	width: 90%;
+    margin: 0 auto;
+	font-size: 22px;
+    padding-bottom: 18px;
+}
+.widget-cat-pricing .is-card *{
+	display:block;
+}
+.widget-cat-pricing .is-card .center{
+    background-color: #ffffff;
+	margin: 20px 5px;
+    padding:15px;
+    min-height: 280px;
+	position: relative;
+    padding-bottom: 100px;
+}
+.widget-cat-pricing .is-card h3 b{
+	font-weight:600;
+}
+.widget-cat-pricing .is-card h3{
+	margin:40px 0;
+}
+.widget-cat-pricing .is-card ul{
+    margin:0;
+    padding:0;
+}
+.widget-cat-pricing .is-card ul li{
+    text-align:left;
+    font-size:18px;
+	position:relative;
+	padding-left:35px;
+	margin-bottom: 5px;
+}
+.widget-cat-pricing .is-card ul li:before{
+    content:'';
+    background-image: url('../uploads/2019/02/tick_1598056586.png');
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 0;
+    top: 5px;
+}
+.widget-cat-pricing .is-card .center h2{
+	margin-bottom:10px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.widget-cat-pricing .is-card .center h2:before{
+	content:'';
+    position: absolute;
+    height: 54px;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    background: #ffffff;
+    width: 5px;
+    top: 8px;
+    left: 11px;
+}
+.widget-cat-pricing .col-md-4:nth-child(2) .is-card:before{
+	content: 'Bestseller';
+    color: #e11a27;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 19px;
+    font-family: Source Sans Pro;
+    border-bottom: 34px solid #ffd200;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    height: 0;
+    width: 185px;
+    position: absolute;
+    top: -23px;
+    white-space: nowrap;
+    left: 50%;
+    transform: translateX(-50%);
+    line-height: 39px;
+}
+.widget-cat-services .is-card{
+    background-color: #f7f0e6;
+    box-shadow: none;
+    border-radius: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    position:relative;
+    margin-top: 65px;
+	font-size:18px;
+	text-align:left;
+}
+.widget-cat-services .is-card h3{
+    background: #ffd200;
+    color: #333;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 97%;
+    padding: 14px 0;
+    border-radius: 10px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+	text-align:center;
+}
+.footer {
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+.footer .social_icons_widget{
+	text-align:right;
+}
+.footer li.menu-item{
+	list-style:none;
+	font-family: Source Sans Pro;
+	    font-size: 18px;
+}
+.footer li.menu-item a{
+	color:#000000;
+}
+.navbar-custom .navbar-nav li a i{
+margin-right:10px;
+}
+	
